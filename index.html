@@ -56,17 +56,17 @@
         .energy-image {
             margin: 1rem auto;
             text-align: center;
-        }
-
-        .feature-image {
             max-width: 100%;
-            height: auto;
+            overflow: hidden;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
-        .intro p {
-            margin-bottom: 1rem;
+        .feature-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            display: block;
         }
 
         .grid {
@@ -135,14 +135,13 @@
     <div class="container">
         <section class="intro">
             <h2>Understanding India's Energy Landscape</h2>
-            <p style="margin-bottom: 2rem;">India's energy sector stands at the intersection of economic growth, environmental sustainability, and social development. As the world's third-largest energy consumer, India's journey towards energy security and transition to clean energy sources is crucial for global climate action. Government portals and analytical tools play a vital role in this transformation by providing transparent access to energy data, enabling informed decision-making for policymakers, researchers, and industry stakeholders.</p>
+            <p>India's energy sector stands at the intersection of economic growth, environmental sustainability, and social development. As the world's third-largest energy consumer, India's journey towards energy security and transition to clean energy sources is crucial for global climate action. Government portals and analytical tools play a vital role in this transformation by providing transparent access to energy data, enabling informed decision-making for policymakers, researchers, and industry stakeholders.</p>
             <div class="energy-image">
-                <img src="power-lines-sunset.jpg" alt="Power transmission lines at sunset" class="feature-image" style="max-height: 400px;">
+                <img src="data:image/jpeg;base64,[BASE64_STRING_OF_THE_IMAGE]" alt="Power transmission lines at sunset" class="feature-image">
             </div>
         </section>
         
         <div class="ad-section">
-            <!-- AdSense Ad Unit -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-8434724387647441"
@@ -175,7 +174,6 @@
         </div>
 
         <div class="ad-section">
-            <!-- Second AdSense Ad Unit -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-8434724387647441"
